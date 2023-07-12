@@ -21,7 +21,7 @@ const Login = () => {
       };
 
     const Login = () => {
-        navigation.navigate("Home")
+        navigation.navigate("Navigator")
     }
 
     const ForgotPassword = () => {
@@ -65,7 +65,7 @@ const Login = () => {
             <Text style={{fontSize:18,marginTop:15,alignSelf:'flex-end'}}>Forgot Password?</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.Login}>
+            <TouchableOpacity style={styles.Login} onPress={Login}>
                 <Text style={styles.LoginText}>Log in</Text>
             </TouchableOpacity>
 

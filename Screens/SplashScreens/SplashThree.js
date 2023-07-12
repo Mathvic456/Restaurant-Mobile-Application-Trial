@@ -5,6 +5,7 @@ import { useNavigation } from '@react-navigation/native';
 import One from '../../assets/Onboarding/One.png';
 import Two from '../../assets/Onboarding/Two.png'
 import Three from '../../assets/Onboarding/Three.png';
+import Four from '../../assets/Onboarding/Four.png'
 
 // create a component
 const SplashThree = () => {

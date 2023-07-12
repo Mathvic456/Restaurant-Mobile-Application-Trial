@@ -44,15 +44,17 @@ const ForgotPassword = () => {
       <Text style={{ fontSize: 30, fontWeight: 'bold', alignSelf: 'center', marginTop: '20%' }}>
         Forgot password
       </Text>
-      <Text style={{ fontSize: 18, alignSelf: 'center' }}>Don't worry! Please enter below, the email</Text>
+      <Text style={{ fontSize: 18, alignSelf: 'center', marginTop:'2%'  }}>Forgotten your password? No problem!</Text>
+      <Text style={{ fontSize: 18, alignSelf: 'center' }}>Just type in the email with your account</Text>
       <Text style={{ fontSize: 18, alignSelf: 'center' }}>associated with your account</Text>
+
 
       <View style={styles.EmailContainer}>
         <TextInput
           style={styles.EmailInput}
           placeholder="E-mail"
           placeholderTextColor="black"
-          cursorColor="black"
+          cursorColor="black" 
           onChangeText={(text) => setEmail(text)}
           value={email}
         />
